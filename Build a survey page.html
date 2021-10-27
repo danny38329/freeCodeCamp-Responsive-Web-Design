@@ -1,0 +1,94 @@
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title id="description">Survey Form</title>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <h3>Thank you for taking the time to help us improve the platform</h3>
+  </head>
+   <div class="myDiv">
+   <form id="survey-form">
+  <label id="name-label" for="name">name</label><br>
+  <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+  <label id="email-label" for="email">Email</label><br>
+  <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+  <label id="number-label" for="age">Age (optional)</label><br>
+  <input type="number" id="number" name="number" min="18" max="200" placeholder="Age"><br><br>
+     
+  <label for="survey-form">Which option best describes your current role?</label><br>
+
+<select name="survey-form" id="dropdown">
+  <option value="default-choice" selected>Select current role</option>
+  <option value="student">Student</option>
+  <option value="job">Full Time Job</option>
+  <option value="learner">Full Time Learner</option>
+  <option value="anonymous">Prefer not to say</option>
+  <option value="other">Other</option>
+</select>
+  <br><br>
+     <label for="survey-form">Would you recommend freeCodeCamp to a friend?</label><br>
+    <input type="radio" id="yes" name="choices" value="yes">
+     <label>Yes</label>
+     <br>
+     <input type="radio" id="no" name="choices" value="no">
+     <label>No</label>
+     <br>
+     <input type="radio" id="maybe" name="choices" value="maybe">
+     <label>Maybe</label>
+     <br><br>
+     
+     <label for="feature-form">What is your favorite feature of freeCodeCamp?</label><br>
+
+<select name="feature" id="feature">
+  <option value="select-option" selected>Select an option</option>
+  <option value="challenges">Challenges</option>
+  <option value="projects">Projects</option>
+  <option value="community">Community</option>
+  <option value="open-source">Open Source</option><br>
+</select>
+     <br><br>
+  
+     <label for="improvements">What would you like to see improved? (Check all that apply)</label><br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1">Front-End Projects</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<label for="vehicle2">Back-End Projects</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3">Data Visualization</label><br>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1">Challenges</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<label for="vehicle2">Open Source Community</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3">Glitter help rooms</label><br>
+   <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1">Videos</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<label for="vehicle2">City Meetups</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3">Wiki</label><br>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1">Forum</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<label for="vehicle2">Additional Courses</label><br><br>
+
+   <label for="sugeestions-comments">Any comments or suggestions?</label><br>
+   <textarea name="Text1" cols="40" rows="5">Enter your comments here...</textarea><br><br>
+     
+   <input id="submit" type="submit" value="Submit">
+   <br><br>
+</form> 
+    </div>
+  
+  <body>
+  </body>
+  
+</html>
